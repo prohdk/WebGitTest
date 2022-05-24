@@ -32,7 +32,7 @@ namespace WebGitTest
             {
                 endpoints.MapGet("/", async context =>
                 {
-                    await context.Response.WriteAsync("Hello World2222!");
+                    await context.Response.WriteAsync("Hello World22222!");
                 });
             });
         }
